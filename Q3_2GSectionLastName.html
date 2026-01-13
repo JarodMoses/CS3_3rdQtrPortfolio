@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <section>
+            <h1 class="title">Sign-up Page</h1>
+            <form id="dForm" action="registered.html" method="get">
+              <fieldset>
+                <legend>Club Signup Form</legend><br/>
+                <label> Student Id:  
+                  <input type="number" name="sID" id="sID" required />
+                </label><br/><br/>
+                <label> Full Name:
+                  <input type="text" name="Fname" id="Fname" required />
+                </label><br/><br/>
+                <label> Date Of Birth :
+                  <input type="date" name="dob" id="dob" required />
+                </label><br/><br/>
+                <label> Email Address:
+                  <input type="email" name="eAddress" id="eAddress" required /> 
+                </label><br/><br/>
+                <label> Mobile Phone Number: 
+                  <input type="text" name="mpn" id="mpn" required /> 
+                </label><br/><br/>
+                <label for="GL">Grade Level:</label>
+                  <select name="GL" id="GL" required>
+                    <option value="idk">Choose:</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option> 
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <br/><br/>
+                <label> Intern/Extern:
+                    <input type="radio" name="IE" value="Intern" required/> Intern
+                    <input type="radio" name="IE" value="Extern" required/> Extern
+                </label><br/><br/>
+                <label for="PO/C"> Preferred Organization/Club</label>
+                    <select name="PO/C" id="PO/C" required>
+                        <option value="idk">Choose:</option>
+                        <option value="Alianti">Alianti</option>
+                        <option value="Axis">Axis</option>
+                        <option value="Exposure">Exposure</option>
+                        <option value="Labuyo">Labuyo</option>
+                        <option value="Sightlines">Sightlines</option>
+                    </select>
+                    
+                
+                
+              </fieldset>  
+              <fieldset>
+                <legend>Action Buttons</legend>
+                <button type="submit"> Accept </button>
+                <input type="reset" value=" Clear " />
+              </fieldset> 
+            </form>
+          </section>
+          <script src="q3e3script.js"></script>
+      </body>
+    </html>
